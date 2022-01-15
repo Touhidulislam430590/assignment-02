@@ -42,3 +42,73 @@ h1{
     text-decoration: none;
     color:#3A3A3A;
 }
+
+
+
+.header-content{
+    display: flex;
+}
+
+.header-content .header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content .header-text .all-text .btn{
+    padding: 10px 40px;
+    background-color: #E02C6D;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+}
+
+.header-content .header-text .all-text .header-title, .header-paragraph{
+    margin: 16px;
+}
+
+/* main section code here  */
+main{
+    width: 70%;
+    margin: auto;
+}
+
+.multi-vendor{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+
+
+
+/* footer code start here */
+.influencer-footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.influencer-footer .footer-text{
+    color: #AAAAAA;
+    text-align:center;
+}
+.influencer-footer .footer-text h3{
+    color: #ffffff;
+}
+
+.influencer-footer .footer-text ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.influencer-footer .footer-text ul li{
+    margin-right: 16px;
+}
+
+.influencer-footer .footer-text ul li a{
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
