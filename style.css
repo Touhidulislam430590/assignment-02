@@ -1,0 +1,44 @@
+/*----------------
+Common style here
+------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+/*------------------
+    menu style start here
+    ------------------*/
+.influencer-header{
+    width: 80%;
+    margin: auto;
+}
+.influencer-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 0;
+}
+.influencer-menu .menu{
+    float: right;
+}
+.influencer-menu .menu ul{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.influencer-menu .menu ul li{
+    list-style: none;
+    margin-right: 34px;
+}
+.influencer-menu .menu ul li a{
+    text-decoration: none;
+    color:#3A3A3A;
+}
