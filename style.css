@@ -150,68 +150,6 @@ main{
     text-decoration: none;
 }
 
-@media (max-width: 480px) {
-    h1{
-        font-size: 30px;
-    }
-    .influencer-header{
-        width: 90%;
-        margin: auto;
-    }
-    .influencer-menu .logo h2{
-        text-align: center;
-    }
-    .influencer-menu .menu{
-        display: none;
-    }
-    .header-content{
-        display: block;
-    }
-    .header-content .header-text .all-text .header-title, .header-paragraph{
-        text-align: center;
-    }
-    .header-content .header-text .all-text .btn{
-        display: flex;
-        justify-content: center;
-        /* align-items: center; */
-        margin: auto;
-    }
-
-    .header-content .header-image img{
-        height: 257px;
-        width: 257px;
-    }
-
-    main .multi-vendor{
-        display: none;
-    }
-
-
-    .product-card{
-        margin: 0;
-        padding: 50px 0;
-    }
-    .cards{
-        grid-template-columns: 250px;
-    }
-    .cards .card .card-image img{
-        width: 200px;
-        height: 176px;
-        margin: auto;
-    }
-
-    .footer-menu-content{
-        width: 90%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 200px;
-    }
-
-    footer{
-        display: none;
-    }
-
-}
 
 /* footer-menu code start here  */
 .footer-menu{
@@ -271,3 +209,63 @@ main{
     text-decoration: none;
 }
 
+
+@media (max-width: 393px) {
+    .multi-vendor, hr, .menu{
+        display: none;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    .product-card{
+        width: 90%;
+        margin: auto;
+    }
+    .cards, .footer-menu-content{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 20px;
+    }
+    .card{
+        margin: 5px;
+    }
+    .header-content{
+        display: block;
+    }
+    .header-image img{
+        height: 250px;
+        width: 280px;
+    }
+
+    .menu1, .menu2, .menu3, .menu4{
+        margin-bottom: 25px;
+    }
+
+    .footer-menu-content h3{
+        margin-bottom: 3px;
+        padding-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 821px) and (min-width: 481px) {
+    h1{
+        font-size: 30px;
+    }
+    .multi-vendor, hr, .menu{
+        display: none;
+    }
+    .product-card{
+        width: 90%;
+        margin: auto;
+    }
+    .cards, .footer-menu-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu1, .menu2, .menu3, .menu4{
+        margin-bottom: 20px;
+    }
+
+    
+}
